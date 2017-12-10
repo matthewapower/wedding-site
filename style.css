@@ -1,0 +1,44 @@
+body {
+  background-image: url(background-01.jpg);
+  background-position: right bottom;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  cursor: url('cursor.png'), auto;
+}
+
+section {
+  max-width: 1000px;
+  color: white;
+  font-family: helvetica;
+  font-size: 25px;
+  position: absolute;
+  right: 100px;
+  bottom: 80px;
+  transform: rotate(-10deg);
+}
+
+h1, h2, hr {
+  font-weight: 500;
+  margin: 0;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+a, span {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+@media (max-width: 768px) {
+  section {
+    font-size: 18px;
+    transform: none;
+    position: static;
+    padding: 20px;
+  }
+}
