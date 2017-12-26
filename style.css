@@ -41,4 +41,10 @@ a, span {
     position: static;
     padding: 20px;
   }
+
+  a, span {
+    color: transparent;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: white;
+  }
 }
